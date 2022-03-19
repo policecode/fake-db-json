@@ -1,0 +1,22 @@
+{
+  "name": "json-sever",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "genarate-data": "node genarate-data.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "query-string": "^7.1.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^6.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
